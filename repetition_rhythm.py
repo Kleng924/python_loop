@@ -19,7 +19,12 @@ user_input = input("Next")
 # Ensure it performs the same function but also includes a condition to stop the loop if a 
 # certain genre is played for instance Hip-hop.
 
-
+while i in range(len(genres)):
+    print(f"{track}:{genre},{message}")
+    if genre == ['Hip-hop']:
+       track == ["Track3"]
+       message == ["To the Hop!"]
+    break
 
 
 user_input = input("Hi")
